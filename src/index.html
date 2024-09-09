@@ -1,0 +1,37 @@
+<!-- 
+ npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+ -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-800 rounded-3xl overflow-hidden relative flex items-center justify-center min-h-screen font-[poppins]">
+    <div class="absolute inset-0 bottom-0 h-[300px] bg-gray-700 right-[700px] bottom-0-[200px] rounded-br-full "></div>
+    <div class="absolute inset-0 bottom-0 h-[400px] bg-gray-700 left-[400px] top-[400px] rounded-tl-full "></div>      
+    <div class="border-4 border-slate-300 w-[75vw] h-[75vh] absolute rounded-3xl grid grid-cols-2 divide-x divide-slate-200 overflow-hidden">
+        <div class="grid grid-rows-2 divide-y divide-slate-200">
+            <div class="mt-8 mx-8 grid grid-rows-2">
+                <div class="bg-black rounded-full size-20 flex justify-center items-center shadow-md">
+                    <h3 class="text-white text-2xl">3</h3>
+                </div>
+                <div>
+                    <h2 class="text-slate-200 text-xl font-semibold inset-0 w-[30vw] "> Have Your Session Comfortably, Privately and Safely Anywhere Around the World.</h2>
+                </div>
+            </div>
+            <div class="pt-4 mx-8">
+                <h2 class="text-slate-200 text-lg font-semibold">You can join your session from anywhere using the app or the website.</h2>
+                <button class="bg-blue-500 px-6 py-4 rounded-full mt-10 text-lg font-semibold hover:bg-blue-600 duration-300 focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-blue-400" >Get Started</button>
+            </div>
+        </div>
+        <div class="py-8 px-8 bg-gradient-to-tr from-transparent to-slate-200">
+            <img class="h-[70vh] absolute" src="https://hidoctor.health/images/ConversionDesign/HowToUse/3.png?v2" alt="">
+        </div>
+    </div>
+</body>
+</html>
